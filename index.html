@@ -59,7 +59,7 @@ $(document).bind('pageinit', function() {
 
   $( "#button2" ).bind( "click", function(event, ui) {
     alert("Posting a new quote");
-    var jsonUrl = "http://gentle-escarpment-3329.herokuapp.com/quote";
+    var jsonUrl = "http://shielded-wildwood-8560.herokuapp.com/quote/";
     var newQuote = { "author" : "foo", "text" : "some text" };
     $.post(jsonUrl,newQuote, function(data) {
       alert("Added quote number " + data.pos + " " + data.author + " " + data.text);
