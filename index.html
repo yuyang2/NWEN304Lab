@@ -48,7 +48,7 @@ $(document).bind('pageinit', function() {
   $( "#button1" ).bind( "click", function(event, ui) {
     var q = $("#text1").val();
     alert("Click "+q);
-    var jsonUrl = "http://gentle-escarpment-3329.herokuapp.com/quote/"+q;
+    var jsonUrl = "http://shielded-wildwood-8560.herokuapp.com/quote/"+q;
     alert("Fetching result from "+jsonUrl);
     $.get(jsonUrl, function(data) {
       alert(data.author);
