@@ -1,0 +1,19 @@
+{
+  "name": "node-example",
+  "version": "0.0.0",
+  "description": "This example app is cool",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nwen304",
+    "lab"
+  ],
+  "author": "esta chiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.5.1",
+    "logfmt": "^1.1.2"
+  }
+}
